@@ -1,0 +1,92 @@
+.student-profile{
+    margin-top:30px;
+    margin-right:2rem;
+    background-color: rgb(255, 255, 255);
+    height:54rem;
+    width:1200px;
+    border-radius:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.106), 0 6px 20px 0 rgba(0, 0, 0, 0.091);
+    margin-bottom:20px;
+
+}
+.studentProfile{
+    width:100%;
+    height:100%;
+}
+.studentData{
+
+    display:flex;
+    flex-direction: row-reverse;
+    margin:70px;
+
+}
+.profile-pic{
+    margin-top:50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.106), 0 6px 20px 0 rgba(0, 0, 0, 0.091);
+    width:200px;
+    height:200px;
+}
+.name{
+    margin-top: 20px;
+    font-family: revert;
+    font-weight: 450;
+}
+.name-s{
+    font-weight: 200;
+    margin-top:10px;
+}
+.student-profile hr{
+    width:90%;
+    margin-left:15px;
+}
+.data-img{
+
+    background-color: orange;
+    border-radius:2px;
+    width:25px;
+    height:25px;
+    margin-right:10px;
+}
+.data{
+    display:flex;
+    flex-direction:row;
+    text-align: left;
+    padding-left:30px;
+    font-size: larger;
+}
+.bio{
+    width:80%;
+}
+.container{
+    margin:10px;
+    margin-top:30px;
+    padding:50px;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-size: larger;
+    font-weight: 700;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.497);
+    background-color: white;
+    border-radius:20px;
+    text-align: left;
+    width:20rem;
+    height: 7rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.106), 0 6px 20px 0 rgba(0, 0, 0, 0.091);
+
+}
+.content-data{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: center;
+
+    
+}
+.nav-full{
+    height:95%;
+    margin-left:30px;
+    margin-top: 30px;
+    border-radius:20px;
+}
