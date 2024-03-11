@@ -36,6 +36,16 @@ Advanced Features:
 • Send notifications to students about upcoming deadlines, new course content, or important announcements.
 
 Your Innovation:
+NA
+
+Teck Stack:
+HTML
+CSS
+Java Script
+React
+Mongodb
+Node JS
+Bootstrap
 
 
 
