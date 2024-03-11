@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+                           Innodev 2k21
+                             (Online Learning Management System)
+                               Team Name: Sudhijna
+  Team Members Name:
+•	Nishant Mohan: https://github.com/Nishant040305
+•	Shib Chandan Mistry: https://github.com/shibchandan
+•	Souvik Sarkar: https://github.com/souvik-sarkar04
+•	Kallol Mondal:
+https://github.com/Nishant040305/Adhigam
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Proposed Features:
+1. Allow students and instructors to create accounts and log in securely to access the platform's features.
 
-In the project directory, you can run:
+2. Instructors can create, upload, and manage course content, including lectures, quizzes, assignments, and resources.
 
-### `npm start`
+3. Students can browse through available courses, enrol in courses of interest, and access course materials.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. Students can access lectures, reading materials, assignments, and other course resources provided by the instructor.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+5. Track students' progress within each course, including completion status, quiz scores, and assignment submissions.
 
-### `npm test`
+6. Maintain user profiles for both students and instructors, displaying basic information, enrolled courses, and course progress.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+7. Provide discussion forums or chat rooms where students can engage with each other and with the instructor to ask questions, discuss topics, and collaborate on assignments.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Advanced Features:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+• Integrate live streaming functionality for instructors to conduct real-time classes, webinars, or Q&A sessions with students.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+• Provide interactive quizzes, polls, and assessments within course content to enhance student engagement and learning outcomes.
 
-### `npm run eject`
+• Implement features for students to submit assignments digitally and for instructors to review, grade, and provide feedback efficiently.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+• Send notifications to students about upcoming deadlines, new course content, or important announcements.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Your Innovation:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
