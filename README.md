@@ -5,7 +5,7 @@
 •	Nishant Mohan: https://github.com/Nishant040305
 •	Shib Chandan Mistry: https://github.com/shibchandan
 •	Souvik Sarkar: https://github.com/souvik-sarkar04
-•	Kallol Mondal:
+•	Kallol Mondal: https://github.com/kallolc-ovivek11112
 https://github.com/Nishant040305/Adhigam
 
 
