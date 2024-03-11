@@ -76,6 +76,7 @@ const Student=()=>{
         </div>
     );
 };
+
 const Contents=()=>{
     return(
         <div className="contents">
@@ -87,9 +88,35 @@ const Contents=()=>{
             <Content  image="image3.jpg" colour ="black"> </Content>
             <Content  image="im.jpg" colour="white"></Content>
             <Content  image="download.jpg" colour ="black"></Content>
+            <Content image="images2.jpg" colour ="black"></Content>
+            <Content  image="images.jpg" colour="white"></Content>
+            <Content  image="download.jpg" colour ="black"></Content>
+            <Content  image="images.jpg" colour = "white"></Content>
+            <Content  image="image3.jpg" colour ="black"> </Content>
+            <Content  image="im.jpg" colour="white"></Content>
+            <Content  image="download.jpg" colour ="black"></Content>
+            <Content image="images2.jpg" colour ="black"></Content>
+            <Content  image="images.jpg" colour="white"></Content>
+            <Content  image="download.jpg" colour ="black"></Content>
+            <Content  image="images.jpg" colour = "white"></Content>
+            <Content  image="image3.jpg" colour ="black"> </Content>
+            <Content  image="im.jpg" colour="white"></Content>
+            <Content  image="download.jpg" colour ="black"></Content>
+            
             </div>
+            <div className="content-info">
+            <Performance></Performance>
+            </div>
+            
         </div>
     );
+}
+const Performance=()=>{
+  return (
+    <div className="performance-content">
+      .
+    </div>
+  );
 }
 const Content=(props)=>{
     return(
