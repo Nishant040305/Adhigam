@@ -1,65 +1,106 @@
-import React from 'react';
-import './index.css';
 import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';  // Import Bootstrap CSS
-import 'boxicons/css/boxicons.min.css';         // Import Boxicons CSS
-// import 'react-bootstrap-sidebar-menu/dist/sidebar-menu.scss'
-import './component_s/classroom.css';
-import SideBar from './component_s/sidebar';
-
-import Classroom from './component_s/Classroom';
-import Dashboard from './component_s/Page3/dashboard';
-import { Route, Routes } from 'react-router-dom';
-import Page from './component_s/Page3/Page3';
-// import Page2 from './component_s/Page2';
-// import Sidebar from './component_s/Sidebar'
-
-// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-
+import Navbar from './Components/Navbar';
+import Sidebar from './Components/Sidebar';
+import Footer from './Components/Footer';
+import Card from './Components/Card';
+import Assign from './Components/Assign';
+import Header from "./Components/Header";
 function App() {
+  const [count, setCount] = useState(0);
   return (
-    // <Routes>
-    //   <Route path="/" element={<Page></Page>}/>
-    // </Routes>
-    <div className="App">
-     
+    <div className="wrapper">
+
+
+      {/* <div className="App"> */}
+      {/*{ <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header> */}
+
+      {/* lec1 */}
+      {/* <Navbar logoText = "CodeWithHarry"/>
+    <div className='value'>
+      {value}
+    </div> */}
+      {/* <div> Hi GUYS</div> */}
+      {/* <button onClick={() => {setValue(value+1)}}>Click me</button>
+<Footer/>
+    </div> */}
+
+      {/* lec2 */}
+      {/* <Navbar />
+      <main>
+        This is my main content
+      </main>
+      <div className='cards'>
+        <Card title="card1" description="card 1 desc"/>
+        <Card title="card2" description="card 2 desc"/>
+        <Card title="card3" description="card 3 desc"/>
+        <Card title="card4" description="card 4 desc"/>
+        
+      </div>
+      <Footer /> */}
+
+      {/* lec3 */}
+      {/* <div> The count is {count}</div>
+      <button onClick={() => {setCount(count+1)}}>Update count</button> */}
+
+      {/* play.tailwindcss.com  and tailblocks.cc  */}
+      {/* <h1 class="text-3xl font-bold underline text-purple-500">
+    Hello world!
+  </h1> */}
+      <div className="sidebar">
+
+        <Sidebar />
+      </div>
       
-      <div className="wrapper">
-        <div className="container">
+      <div className='right-section'>
+      <div className='navbar'>
 
-          <div className="sidebar"><SideBar/></div>
-         
-         <div className='flex'>
-         <div className='Dashboard'><Dashboard/></div>
-          
-          <div className="classes">
+<Navbar />
 
-            <Classroom subject_n="Data Structures" teacher_n="Dr. Deepak Gupta" image="Honors.jpg"/>
-          
-            <Classroom subject_n=" Professional Communication" teacher_n="Dr. Jyotsna Sinha"image="Honors2.jpg"  />
-            
-            <Classroom subject_n="Health and Hygiene" teacher_n="Dr. Neha Alladuniv" image="Honors.jpg"/>
-            <Classroom subject_n="Biotechnology" teacher_n="Dr. Monica" image="Honors2.jpg"/>
-            <Classroom subject_n="Programming Paradigms" teacher_n="Dr. Neha Alladuniv"image="Honors.jpg" />
-            <Classroom subject_n="Mathematics" teacher_n="Dr. Supriya Yadav" image="Honors3.jpg"/>
-            
-            <Classroom subject_n="Physics" teacher_n="Dr. Monica"image="Honors2.jpg" />
-            <Classroom subject_n=" Environment and Climate Change" teacher_n="Dr. Palak Jain"image="Honors3.jpg" />
-            <Classroom subject_n="Chemistry" teacher_n="Dr. Supriya Yadav"image="Honors3.jpg" />
-            
+</div>
+        {/* <div className="subject-name border" style={{backgroundImage:`url({logo192.png})`}}>
+          <div className="subj-text">
+            <h1>
+            B.Tech Data Structures
+            </h1>
           </div>
-         
-         </div>
-         
+        </div> */}
+        <div><Header image="Honors3.jpg" subject_n="B.Tech Data Structures"/></div>
+        <div className="right-contents">
+          <div className="box-left border">
+            <div className="text-1">Upcoming</div>
+            <div className="text-2">Woohoo, no work due soon!</div>
+            <button className="text-3">View all</button>
+          </div>
+          <div className="sub-content">
+            <Assign assn_no="Announce something to the class" />
+            <Assign assn_no="Assignment 2" date="Feb 12" />
+            <Assign assn_no="Assignment 3" date="Feb 14" />
+          </div>
         </div>
+
+
       </div>
     </div>
-
-
-
 
   );
 }
 
+// close tags with /
+// return a wrapper div tag 
+// use className instead of class 
 export default App;
