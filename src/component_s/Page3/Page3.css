@@ -1,0 +1,209 @@
+.wrapper { 
+    width:100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    }
+    .right {
+
+    display: flex;
+    width: 90%;
+
+    /* flex: 1; */
+   
+}
+.right-section {
+    display: flex;
+    width: 50%;
+    /* background-color: blue; */
+    position: absolute;
+    right:0;
+    /* flex: 1; */
+   
+}
+
+.sub-section-left {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* .container {
+    width:60%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    background-color: blue; */
+
+.sidebar {
+    width:10vw;
+   position: absolute;
+   left:0;
+    /* flex: 0 0 auto; */
+}
+
+
+
+
+
+
+
+
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+.scroll-container::-webkit-scrollbar {
+    width: 12px;
+    /* Width of the scrollbar */
+}
+
+/* Track */
+.scroll-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Color of the track */
+    /* background-color: ; */
+}
+
+/* Handle */
+.scroll-container::-webkit-scrollbar-thumb {
+    background: rgba(42, 38, 38, 0.207);
+    /* Color of the handle */
+}
+
+.scroll-container::-webkit-scrollbar-button {
+    display: none;
+}
+
+.sidebar {
+    width: 50%;
+    overflow-y: scroll;
+
+}
+.header {
+    color: blue;
+}
+.b {
+    width: 130px;
+    height: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.right-section {
+    display: flex;
+    width: 90%;
+    position: absolute;
+    right:0;
+}
+
+.sub-section-left {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-section-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.mb {
+    margin-bottom: 0.5rem;
+}
+.mt {
+    margin-top: 2rem;
+}
+
+.sub-header-child {
+    display: flex;
+    position: relative;
+}
+
+.sub-header3 {
+    position: absolute;
+    right: 0;
+}
+
+.documents {
+    height: 5rem;
+    border: 1px solid black;
+    color: green;
+}
+.sub-section-right {
+    position: relative;
+    width: 30%;
+}
+.box-right {
+    /* position: absolute; */
+    height:12.5rem;
+    right:0;
+    width: 80%;
+    border: 1px solid black;
+}
+.submit-button1 {
+    width: 80%;
+    margin-left: 2rem;
+    height: 4rem;
+    background-color: green;
+    color: purple;
+}
+.submit-button2 {
+    width: 80%;
+    margin-left: 2rem;
+    height: 4rem;
+    background-color: purple;
+    color:white;
+}
+.text-1 {
+    margin-left:1rem;
+}
+
+.text-2 {
+    color: red;
+}
+.sub-header-child {
+    display: flex;
+    position: relative;
+}
+
+.sub-header3 {
+    position: absolute;
+    right: 0;
+}
+.comments {
+    color: blue;
+}
+.comments {
+    width:15rem;
+    
+}
+.comment-body {
+    background-color: purple;
+    color: white;
+    width:100%;
+    left:0;
+}
+
+.pvt-com {
+    color: blue;
+    
+}
+.pvt-com-body {
+    background-color: purple;
+    color:white;
+}
+
+
