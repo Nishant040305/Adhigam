@@ -1,0 +1,13 @@
+.yellow {
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 8px;
+    color:white;    
+    position: relative;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.mt {
+    margin-top:1rem;
+    /* position: absolute; */
+    /* left:0; */
+}
