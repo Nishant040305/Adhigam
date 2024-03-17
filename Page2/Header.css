@@ -1,0 +1,33 @@
+.subject-dashboard{
+    width:1055px;
+    height:200px;
+    /* background-color: black; */
+    
+    background-size: contain;
+    border-radius: 10px ;
+    color: white;
+    padding:20px;
+    margin-left: 9.3rem;
+
+}.subject-name 
+
+{
+  /* background-image: url("https://gstatic.com/classroom/themes/img_code.jpg"); */
+    height: 30%;
+    border: 1px solid green;
+    width:83.5%;
+    position: relative;
+    margin-left: 150px;
+    margin-top: 2rem;
+    background-repeat: no-repeat;
+    /* background-color: rgb(198, 198, 4); */
+}
+.subj-text {
+    position: absolute;
+    bottom : 0;
+    user-select: none;
+    color: green; 
+}
+.border {
+  border-radius: 4px;
+}

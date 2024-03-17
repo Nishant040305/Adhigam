@@ -1,0 +1,87 @@
+.wrapper {
+    height:100vh;
+    width:100vw;
+    
+}
+.heading {
+    display: block;
+    margin-left: 255px;
+    text-align: center;
+    border: 1px solid black;
+    height:150px;
+    width:1020px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+    background-image: url(Honors3.jpg);
+    color: white;
+}
+.h1 {
+    font-size: large;
+}
+.h2 {
+    font-size: large;
+}
+.logo {
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+}
+
+body {
+    height:100vh;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(109,39,239));
+}
+
+.container {
+    max-width: 955px;
+    border: 2px solid black;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+}
+
+
+.message {
+    background-color: grey;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+#send-container {
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width:985px;
+   
+}
+
+.btn {
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height:34px;
+}
+#messageInp {
+    width:92%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height:34px;   
+}
