@@ -24,6 +24,11 @@ import Home from "./component_s/Page3/Home"
 // import Signup from "./component_s/Page3/Signup"
 // import Page from "./component_s/Page3"
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+
+import Dropdown from './component_s/Page5/Dropdown';
+
+
 import { useState } from 'react';
 
 
@@ -35,8 +40,13 @@ function App() {
 
 
     //Page 3 code
+    //  <Routes>
+    //   <Route path="/" element={<Homepage/>}/>
+    //   </Routes>
+
+//Page 5 code
      <Routes>
-      <Route path="/" element={<Homepage/>}/>
+      <Route path="/" element={<Dropdown/>}/>
       </Routes>
    
 
