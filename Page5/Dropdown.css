@@ -109,7 +109,60 @@
     width:500px;
     border: 1px solid black;
     border-radius: 4px;
-    margin-top: 10px;
+    /* margin-top:px; */
     margin-left: 4em;
   }
+.topics-box {
+    padding: 10px;
+    height:80px;
+    width:400px;
+    border: 1px solid black;
+    border-radius: 4px;
+    /* margin-top:px; */
+    margin-left: 14em;
+    margin-top: 2em;
+    position: relative;
+  }
   
+#allTopicsBtn
+{
+    background-color: rgb(20, 221, 27);
+    height:50px;
+    width:150px;
+    margin-left:2em;
+    border: 1px solid black;
+    border-radius: 26px;
+    cursor: pointer;
+    position: absolute;
+    left:0;
+}
+#allTopicsBtn2
+{
+    background-color: rgba(244, 83, 43, 0.905);
+    height:50px;
+    width:150px;
+    margin-left:2em;
+    border: 1px solid black;
+    border-radius: 26px;
+    cursor: pointer;
+    position: absolute;
+    left:12em;
+}
+
+.courses-form {
+    margin-top: 6em;
+}
+
+.courses-name {
+    color: blue;
+    font-size: large;
+}
+
+.courses-submit {
+    color: white;
+    background-color: red;
+    border-radius: 16px;
+    width:150px;
+    margin-top:0.5em;
+    margin-left: 3em;
+}
