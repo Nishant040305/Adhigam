@@ -1,0 +1,90 @@
+
+  .image img{
+    margin-top: 20px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.269),0 6px 20px 0 rgba(0, 0, 0, 0.304);
+    width:29rem;
+    height:43rem;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    background-position: center;
+    background-size:"cover";
+}
+
+
+.block img{
+    height: 10rem;
+    width: 10rem;
+    margin-right: auto;
+    margin-left:1rem;
+    margin-top:20px;
+    margin-bottom:30px;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.106),0 6px 20px 0 rgba(0,0,0,0.091);
+    background-color: rgb(254, 254, 254);
+}
+.block{
+    margin-top:20px;
+    margin-bottom:20px;
+    width:30rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.106),0 6px 20px 0 rgba(0,0,0,0.091);
+    height: 43rem;
+}
+.block h3{
+    font-size: x-large;
+    font-weight: 500;
+}
+.Username{
+    background-color: rgb(255, 255, 255);
+    width:21rem;
+    height:3rem;
+    border:0px;
+    border-radius:20px;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.106),0 6px 20px 0 rgba(0,0,0,0.091);
+}
+.password{
+    background-color: rgb(255, 255, 255);
+    margin-top:20px;
+    margin-left:0rem;
+    width:21rem;
+    height:3rem;
+    border:0px;
+    border-radius:20px;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.106),0 6px 20px 0 rgba(0,0,0,0.091);
+}
+.login{
+    margin:50px;
+    margin-right:20px;
+    margin-left:50px;
+    width:10rem;
+    height:3rem;
+    background-color: blueviolet;
+    border-radius:20px;
+    color:white;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.106),0 6px 20px 0 rgba(0,0,0,0.091);
+}
+.signin{
+    margin:0px;
+    margin-top:10px;
+    margin-left:0px;
+    width:10rem;
+    height:3rem;
+    background-color: blueviolet;
+    border-radius:20px;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.106),0 6px 20px 0 rgba(0,0,0,0.091);
+    color:white;
+}
+.login-universal{
+    margin-left:30px;
+    text-align: center;
+}
+.container-login-c{
+    display: flex;
+    flex-direction:row;
+    margin-left:300px;
+}
+.container-login-complete-page{
+    background: rgb(241,220,255);
+background: linear-gradient(90deg, rgba(241,220,255,1) 0%, rgba(255,255,255,1) 50%, rgba(237,214,254,1) 100%);
+}
